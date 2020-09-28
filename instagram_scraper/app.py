@@ -571,6 +571,7 @@ class InstagramScraper(object):
 
     def augment_node(self, node):
         # PB is: node does not contain users!
+        print('jadjfjdjjdajfd')
         self.extract_tags(node)
         self.extract_tagged_users(node)
 
@@ -994,6 +995,7 @@ class InstagramScraper(object):
 
 
         resp = self.get_json(QUERY_MEDIA.format(params))
+        print(resp)
 
         if resp is not None:
             # resp does not contain tagged_user
