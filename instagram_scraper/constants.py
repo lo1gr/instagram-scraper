@@ -15,6 +15,7 @@ BROADCAST_URL = BASE_URL + 'api/v1/feed/user/{0}/story/'
 TAGS_URL = BASE_URL + 'explore/tags/{0}/?__a=1'
 LOCATIONS_URL = BASE_URL + 'explore/locations/{0}/?__a=1'
 VIEW_MEDIA_URL = BASE_URL + 'p/{0}/?__a=1'
+VIEW_MEDIA_URL_NO_PARAM = BASE_URL + 'p/{0}/'
 SEARCH_URL = BASE_URL + 'web/search/topsearch/?context=blended&query={0}'
 
 QUERY_FOLLOWINGS = BASE_URL + 'graphql/query/?query_hash=c56ee0ae1f89cdbd1c89e2bc6b8f3d18&variables={0}'

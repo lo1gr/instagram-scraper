@@ -10,6 +10,14 @@ instagram-scraper is a command-line application written in Python that scrapes a
 
 Install
 -------
+
+TO RUN THE PROJECT DIRECTLY WHEN YOU MAKE CHANGES TO PYTHON (while grabbing info on tagged_users): 
+python app.py <USERYOUWANT> -u <YOUR USERNAME> -p <YOURPASSWORD> --media-metadata --profile-metadata
+important commands:
+if add --comment to the command : will get the name of people who commented, the date comment was made and the content of the comment
+if add --media-types image video		   will only select images and videos, not the rest (stories)		
+
+S
 To install instagram-scraper:
 ```bash
 $ pip install instagram-scraper
